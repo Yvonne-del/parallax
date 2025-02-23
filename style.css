@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 2px solid red;
+}
+.parallax {
+  /* The image used */
+  background: url(./images/pexels-photo-1108099.jpeg);
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.parallax p{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 20%;
+  text-align: center;
+}
+.words{
+  height:200px;
+  background-color:gray;
+  font-size:36px;
+  text-align: center;
+}
+.paradox{
+  background: url(./images/images.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
